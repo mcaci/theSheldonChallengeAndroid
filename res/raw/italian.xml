@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabulary code="it" name="italian">
+	<ruleset>
+		<classic>
+			<rock>Pietra</rock>
+			<paper>Carta</paper>
+			<scissors>Forbice</scissors>
+		</classic>
+		<sheldon>
+			<rock>Pietra</rock>
+			<paper>Carta</paper>
+			<scissors>Forbice</scissors>
+			<lizard>Lucertola</lizard>
+			<spock>Spock</spock>
+		</sheldon>
+	</ruleset>
+	<buttonset>
+		<mainmenu>
+			<new_game>Nuova Partita</new_game>
+			<options>Opzioni</options>
+			<rules>Regole</rules>
+			<credits>Credits</credits>
+		</mainmenu>
+		<back_set>
+			<back>Indietro</back>
+			<cancel>Cancella</cancel>
+			<main_menu>Menu Principale</main_menu>
+			<quit>Esci</quit>
+		</back_set>
+		<game>
+			<random>Random</random>
+			<rematch>Rivincita</rematch>
+			<start>Start</start>
+			<surrender>Resa</surrender>
+		</game>
+		<player_number>
+			<one>1 Giocatore</one>
+			<two>2 Giocatori</two>
+		</player_number>
+	</buttonset>
+	<label>
+		<option_menu>
+			<language>Lingua</language>
+			<score_to_win>Punti per vincere</score_to_win>
+			<rule>Regola</rule>
+			<save_button>Salva</save_button>
+		</option_menu>
+		<enter_name>Inserisci nome</enter_name>
+		<move>Mossa</move>
+		<score>Punti</score>
+		<boolean_answer>
+			<yes>Si</yes>
+			<no>No</no>
+		</boolean_answer>
+	</label>
+	<message>
+		<outcome>
+			<win>vince contro</win>
+			<loss>perde contro</loss>
+			<tie>pareggio</tie>
+		</outcome>
+		<creditsM>Progettato e implementato da Nikiforos. Per favore mandatemi le vostre impressioni, commenti e suggerimenti a</creditsM>
+		<end_gameM>vince!!!</end_gameM>
+		<forfeitM>vince perchè ti sei arreso..</forfeitM>
+		<tieM>mosse uguali pareggiano tra loro</tieM>
+		<exit_confirmationM>Vuoi davvero uscire?</exit_confirmationM>
+	</message>
+</vocabulary>

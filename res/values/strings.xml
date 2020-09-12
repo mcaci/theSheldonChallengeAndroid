@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainMenuActivity!</string>
+    <string name="app_name">The Sheldon Challenge</string>
+    <string name="email">thesheldonchallenge@gmail.com</string>
+    <string name="quit">Quit</string>
+    
+    <string name="opt_noteOnSave">Options will be enforced once you go back to the main menu</string>
+    
+    <string name="lang">Language</string>
+    <string name="lang_value">ID_lang</string>
+    <string name="lang_summary">Choose a language</string>
+    <string name="lang_title">Language</string>
+    
+    <string name="maxScore">Score to win</string>
+    <string name="maxScore_value">ID_maxScore</string>
+    <string name="maxScore_description">Insert the score to reach for the win</string>
+    <string name="maxScore_dialogTitle">Input score</string>
+    <string name="maxScore_summary">Choose the score to reach for the win</string>
+    <string name="maxScore_title">Score to win</string>
+    
+    <string name="rule">Rule</string>
+    <string name="rule_value">ID_rule</string>
+    <string name="rule_summary">Choose a rule</string>
+    <string name="rule_title">Rule</string>
+    
+    
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:orientation="vertical" android:weightSum="1">
+	
+	<LinearLayout
+	    android:id="@+id/filler_newgame"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.1"
+	    android:orientation="vertical" >
+	</LinearLayout>
+
+	<Button
+	    android:id="@+id/button_onePlayerGame"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.1"
+	    android:text="One Player" />
+
+	<Button
+	    android:id="@+id/button_twoPlayerGame"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.1"
+	    android:text="Two Player" />
+
+</LinearLayout>

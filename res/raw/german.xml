@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabulary code="de" name="german">
+	<ruleset>
+		<classic>
+			<rock>Stein</rock>
+			<paper>Papier</paper>
+			<scissors>Schere</scissors>
+		</classic>
+		<sheldon>
+			<rock>Stein</rock>
+			<paper>Papier</paper>
+			<scissors>Schere</scissors>
+			<lizard>Echse</lizard>
+			<spock>Spock</spock>
+		</sheldon>
+	</ruleset>
+	<buttonset>
+		<mainmenu>
+			<new_game>Neues Spiel</new_game>
+			<options>Optionen</options>
+			<rules>Regeln</rules>
+			<credits>Credits</credits>
+		</mainmenu>
+		<back_set>
+			<back>Zurück</back>
+			<cancel>Abbrechen</cancel>
+			<main_menu>Hauptmenü</main_menu>
+			<quit>Schließen</quit>
+		</back_set>
+		<game>
+			<random>Zufällig</random>
+			<rematch>Rückspiel</rematch>
+			<start>Start</start>
+			<surrender>Aufgeben</surrender>
+		</game>
+		<player_number>
+			<one>1 Spieler</one>
+			<two>2 Spieler</two>
+		</player_number>
+	</buttonset>
+	<label>
+		<option_menu>
+			<language>Sprache</language>
+			<score_to_win>Punktzahl zum Gewinnen</score_to_win>
+			<rule>Regel</rule>
+			<save_button>Speichern</save_button>
+		</option_menu>
+		<enter_name>Gebe einen Namen ein</enter_name>
+		<move>Zug</move>
+		<score>Punkte</score>
+		<boolean_answer>
+			<yes>Ja</yes>
+			<no>Nein</no>
+		</boolean_answer>
+	</label>
+	<message>
+		<outcome>
+			<win>gewinnt gegen</win>
+			<loss>verliert gegen</loss>
+			<tie>Unentschieden</tie>
+		</outcome>
+		<creditsM>Erdacht und entwickelt von Nikiforos. Bitte sende alle Kommentare, Vorschläge und Feedback an</creditsM>
+		<end_gameM>gewinnt!!!</end_gameM>
+		<forfeitM>gewinnt, da du aufgegeben hast..</forfeitM>
+		<tieM>Gleiche Symbole bilden ein Unentschieden</tieM>
+		<exit_confirmationM>Möchtest du wirklich aufhören?</exit_confirmationM>
+	</message>
+</vocabulary>

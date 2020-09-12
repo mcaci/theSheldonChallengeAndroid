@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabulary code="es" name="spanish">
+	<ruleset>
+		<classic>
+			<rock>Piedra</rock>
+			<paper>Papel</paper>
+			<scissors>Tijeras</scissors>
+		</classic>
+		<sheldon>
+			<rock>Piedra</rock>
+			<paper>Papel</paper>
+			<scissors>Tijeras</scissors>
+			<lizard>Lagarto</lizard>
+			<spock>Spock</spock>
+		</sheldon>
+	</ruleset>
+	<buttonset>
+		<mainmenu>
+			<new_game>Nueva Partida</new_game>
+			<options>Opciones</options>
+			<rules>Reglas</rules>
+			<credits>Credits</credits>
+		</mainmenu>
+		<back_set>
+			<back>Atràs</back>
+			<cancel>Cancelar</cancel>
+			<main_menu>Menù Principal</main_menu>
+			<quit>Cerrar</quit>
+		</back_set>
+		<game>
+			<random>Random</random>
+			<rematch>Revancha</rematch>
+			<start>Start</start>
+			<surrender>Entregar</surrender>
+		</game>
+		<player_number>
+			<one>1 Jugador</one>
+			<two>2 Jugadores</two>
+		</player_number>
+	</buttonset>
+	<label>
+		<option_menu>
+			<language>Idioma</language>
+			<score_to_win>Resultado para ganar</score_to_win>
+			<rule>Regla</rule>
+			<save_button>Guardar</save_button>
+		</option_menu>
+		<enter_name>Escribe su nombre</enter_name>
+		<move>Acciòn</move>
+		<score>Resultado</score>
+		<boolean_answer>
+			<yes>Si</yes>
+			<no>No</no>
+		</boolean_answer>
+	</label>
+	<message>
+		<outcome>
+			<win>gana contra</win>
+			<loss>pierde contra</loss>
+			<tie></tie>
+		</outcome>
+		<creditsM>Diseñado y implementado por Nikiforos. Por favor envíe todos sus comentarios, sugerencias y feedbacks a</creditsM>
+		<end_gameM>gana!!!</end_gameM>
+		<forfeitM>gana porque se entregò..</forfeitM>
+		<tieM>cada acción empata consigo</tieM>
+		<exit_confirmationM>¿Seguro que quieres salir?</exit_confirmationM>
+	</message>
+</vocabulary>

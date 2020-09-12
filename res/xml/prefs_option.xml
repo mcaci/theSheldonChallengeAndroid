@@ -1,0 +1,28 @@
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:key="prefs_data"
+  android:title="Game Options">
+    
+  <ListPreference
+	android:key="@string/lang_value"
+	android:summary="@string/lang_summary"
+	android:title="@string/lang_title"
+	android:entries="@array/lang"
+	android:entryValues="@array/lang"
+  />
+  <EditTextPreference
+  	android:key="@string/maxScore_value"
+	android:dialogTitle="@string/maxScore_dialogTitle"
+	android:dialogMessage="@string/maxScore_description"
+	android:summary="@string/maxScore_summary"
+	android:title="@string/maxScore_title"
+  />
+  <ListPreference
+	android:key="@string/rule_value"
+	android:summary="@string/rule_summary"
+	android:title="@string/rule_title"
+	android:entries="@array/rule"
+	android:entryValues="@array/rule"
+  />
+
+</PreferenceScreen>

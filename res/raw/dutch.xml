@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabulary code="nl" name="dutch">
+	<ruleset>
+		<classic>
+			<rock>Steen</rock>
+			<paper>Papier</paper>
+			<scissors>Schaar</scissors>
+		</classic>
+		<sheldon>
+			<rock>Steen</rock>
+			<paper>Papier</paper>
+			<scissors>Schaar</scissors>
+			<lizard>Hagedis</lizard>
+			<spock>Spock</spock>
+		</sheldon>
+	</ruleset>
+	<buttonset>
+		<mainmenu>
+			<new_game>Niew Spel</new_game>
+			<options>Instellingen</options>
+			<rules>Regels</rules>
+			<credits>Credits</credits>
+		</mainmenu>
+		<back_set>
+			<back>Terug</back>
+			<cancel>Annuleren</cancel>
+			<main_menu>Hoofdmenu</main_menu>
+			<quit>Stop</quit>
+		</back_set>
+		<game>
+			<random>Willekeurig</random>
+			<rematch>Overnieuw</rematch>
+			<start>Start</start>
+			<surrender>Overgeven</surrender>
+		</game>
+		<player_number>
+			<one>1 Speler</one><!-- een speler -->
+			<two>2 Spelers</two><!-- twee spelers -->
+		</player_number>
+	</buttonset>
+	<label>
+		<option_menu>
+			<language>Taal</language>
+			<score_to_win>Score</score_to_win>
+			<rule>Regel</rule>
+			<save_button>Opslaan</save_button>
+		</option_menu>
+		<enter_name>Naam opgeven</enter_name>
+		<move>Keuze</move>
+		<score>Score</score>
+		<boolean_answer>
+			<yes>Ja</yes>
+			<no>Geen</no>
+		</boolean_answer>
+	</label>
+	<message>
+		<outcome>
+			<win>Wint van</win>
+			<loss>Verliest van</loss>
+			<tie>Gelijkspel</tie>
+		</outcome>
+		<creditsM>Ontwikkeld en uitgegeven door Nikiforos. Stuur commentaar, suggesties en feedback naar</creditsM>
+		<end_gameM>wint!!!</end_gameM>
+		<forfeitM>wint, omdat jij je over geeft..</forfeitM>
+		<tieM>Gelijke zet is gelijkspel</tieM>
+		<exit_confirmationM>Do you really want to quit?</exit_confirmationM>
+	</message>
+</vocabulary>

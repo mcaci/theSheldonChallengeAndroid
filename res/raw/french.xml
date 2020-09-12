@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabulary code="fr" name="french">
+	<ruleset>
+		<classic>
+			<rock>Pierre</rock>
+			<paper>Feuille</paper>
+			<scissors>Ciseaux</scissors>
+		</classic>
+		<sheldon>
+			<rock>Pierre</rock>
+			<paper>Papier</paper>
+			<scissors>Ciseaux</scissors>
+			<lizard>Lézard</lizard>
+			<spock>Spock</spock>
+		</sheldon>
+	</ruleset>
+	<buttonset>
+		<mainmenu>
+			<new_game>Nouvelle Partie</new_game>
+			<options>Options</options>
+			<rules>Règles</rules>
+			<credits>Credits</credits>
+		</mainmenu>
+		<back_set>
+			<back>Retour</back>
+			<cancel>Annuler</cancel>
+			<main_menu>Menu Principal</main_menu>
+			<quit>Quitter</quit>
+		</back_set>
+		<game>
+			<random>Au Hasard</random>
+			<rematch>Revanche</rematch>
+			<start>Start</start>
+			<surrender>Abandonner</surrender>
+		</game>
+		<player_number>
+			<one>1 Joueur</one>
+			<two>2 Joueurs</two>
+		</player_number>
+	</buttonset>
+	<label>
+		<option_menu>
+			<language>Langue</language>
+			<score_to_win>Points pour gagner</score_to_win>
+			<rule>Règle</rule>
+			<save_button>Sauvegarder</save_button>
+		</option_menu>
+		<enter_name>Saisissez votre nom</enter_name>
+		<move>Action</move>
+		<score>Points</score>
+		<boolean_answer>
+			<yes>Oui</yes>
+			<no>Non</no>
+		</boolean_answer>
+	</label>
+	<message>
+		<outcome>
+			<win>gagne contre</win>
+			<loss>perd contre</loss>
+			<tie>ties with</tie>
+		</outcome>
+		<creditsM>Conçu et mis en œuvre par Nikiforos. S'il vous plaît envoyez vos commentaires et suggestions à</creditsM>
+		<end_gameM>gagne!!!</end_gameM>
+		<forfeitM>gagne parce que t'es rendu..</forfeitM>
+		<tieM>deux actions égales font match nul</tieM>
+		<exit_confirmationM>Est-ce que tu veux vraiment quitter?</exit_confirmationM>
+	</message>
+</vocabulary>

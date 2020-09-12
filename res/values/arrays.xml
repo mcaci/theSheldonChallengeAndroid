@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="lang">
+    <item>ALBANIAN</item>
+    <item>DUTCH</item>
+    <item>ENGLISH</item>
+    <item>FRENCH</item>
+    <item>GERMAN</item>
+    <item>ITALIAN</item>
+    <item>PERSIAN</item>
+    <item>PORTUGUESE</item>
+    <item>SPANISH</item>
+  </string-array>
+  <string-array name="rule">
+    <item>CLASSIC</item>
+    <item>SHELDON</item>
+  </string-array>
+</resources>

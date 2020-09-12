@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button_space_classic"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.3"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/clRock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        layout="@layout/button_rock"
+        android:onClick="classicRock" />
+
+    <include
+        android:id="@+id/clPaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clRock"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/clRock"
+        layout="@layout/button_paper"
+        android:onClick="classicPaper" />
+
+    <include
+        android:id="@+id/clScissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/clPaper"
+        android:layout_toRightOf="@+id/clPaper"
+        layout="@layout/button_scissors"
+        android:onClick="classicScissors" />
+
+</RelativeLayout>

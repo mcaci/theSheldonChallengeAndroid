@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabulary code="fa" name="persian">
+	<ruleset>
+		<classic>
+			<rock>سنگ</rock>
+			<paper>کاغذ</paper>
+			<scissors>قیچی</scissors>
+		</classic>
+		<sheldon>
+			<rock>سنگ</rock>
+			<paper>کاغذ</paper>
+			<scissors>قیچی</scissors>
+			<lizard>مارمولک</lizard>
+			<spock>اسپاک</spock>
+		</sheldon>
+	</ruleset>
+	<buttonset>
+		<mainmenu>
+			<new_game>بازی جدید</new_game>
+			<options>انتخابها</options>
+			<rules>قوانین</rules>
+			<credits>سازندگان</credits>
+		</mainmenu>
+		<back_set>
+			<back>بازگشت</back>
+			<cancel>انصراف</cancel>
+			<main_menu>منو اصلی</main_menu>
+			<quit>خروج</quit>
+		</back_set>
+		<game>
+			<random>حرکت تصادفی</random>
+			<rematch>دوباره</rematch>
+			<start>شروع</start>
+			<surrender>تسلیم</surrender>
+		</game>
+		<player_number>
+			<one>یک نفره</one>
+			<two>دو نفره</two>
+		</player_number>
+	</buttonset>
+	<label>
+		<option_menu>
+			<language>زبان</language>
+			<score_to_win>امتیاز لازم برای بردن</score_to_win>
+			<rule>قوانین</rule>
+			<save_button>ذخیره</save_button>
+		</option_menu>
+		<enter_name>نام خود را وارد کنید</enter_name>
+		<move>حرکت</move>
+		<score>امتیاز</score>
+		<boolean_answer>
+			<yes>بله</yes>
+			<no>هیچ</no>
+		</boolean_answer>
+	</label>
+	<message>
+		<outcome>
+			<win>را می برد</win>
+			<loss separator="#">می بازد#از</loss>
+			<tie></tie>
+		</outcome>
+		<creditsM>طراحی و پیاده شده توسط نیکیفروس، هرگونه نظرات و پیشنهادات خود را با ما در میان بگذارید</creditsM>
+		<end_gameM>.برنده شد</end_gameM>
+		<forfeitM>..برنده شد چون شما تسلیم شدید</forfeitM>
+		<tieM>حرکت مشابه مساوی محسوب میشود</tieM>
+		<exit_confirmationM>Do you really want to quit?</exit_confirmationM>
+	</message>
+</vocabulary>

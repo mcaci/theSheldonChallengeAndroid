@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button_space_sheldon"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.3"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/shScissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        layout="@layout/button_scissors"
+        android:onClick="sheldonScissors" />
+
+    <include
+        android:id="@+id/shSpock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shScissors"
+        android:layout_toRightOf="@+id/shScissors"
+        android:layout_marginLeft="25dp"
+        layout="@layout/button_spock"
+        android:onClick="sheldonSpock" />
+
+    <include
+        android:id="@+id/shRock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shScissors"
+        android:layout_toLeftOf="@+id/shScissors"
+        android:layout_marginRight="25dp"
+        layout="@layout/button_rock"
+        android:onClick="sheldonRock" />
+
+    <include
+        android:id="@+id/shPaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/shRock"
+        android:layout_below="@+id/shScissors"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        layout="@layout/button_paper"
+        android:onClick="sheldonPaper" />
+
+    <include
+        android:id="@+id/shLizard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shScissors"
+        android:layout_toRightOf="@+id/shPaper"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="25dp"
+        layout="@layout/button_lizard"
+        android:onClick="sheldonLizard" />
+
+</RelativeLayout>

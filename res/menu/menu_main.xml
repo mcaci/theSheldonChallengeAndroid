@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:id="@+id/menuItem_quit"
+        android:titleCondensed="@string/quit"
+        android:title="@string/quit"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:visible="true"
+        android:checkable="false"
+        android:checked="false"/>
+</menu>

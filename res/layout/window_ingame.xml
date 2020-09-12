@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/P1InfoPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:orientation="vertical"
+    	android:background="@drawable/border"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/nameText_player1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="PLAYER 1" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" 
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/ingame_1_move"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="MOVE" 
+                android:layout_weight="0.5" />
+            
+            <TextView
+                android:id="@+id/ingame_1_score"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="0" 
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/P2InfoPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:weightSum="1" >
+
+        <TextView
+     	 	  android:id="@+id/nameText_player2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="PLAYER 2" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" 
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/ingame_2_move"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="MOVE" 
+                android:layout_weight="0.5" />
+            
+            <TextView
+                android:id="@+id/ingame_2_score"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="0" 
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+	    android:id="@+id/ingame_choosing_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:layout_weight="0.7"
+	    android:orientation="vertical" >
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_random"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Random" />
+
+    <Button
+        android:id="@+id/button_surrender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Surrender" />
+
+</LinearLayout>

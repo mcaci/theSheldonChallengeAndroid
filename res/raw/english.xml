@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabulary code="en" name="english">
+	<ruleset>
+		<classic>
+			<rock>Rock</rock>
+			<paper>Paper</paper>
+			<scissors>Scissors</scissors>
+		</classic>
+		<sheldon>
+			<rock>Rock</rock>
+			<paper>Paper</paper>
+			<scissors>Scissors</scissors>
+			<lizard>Lizard</lizard>
+			<spock>Spock</spock>
+		</sheldon>
+	</ruleset>
+	<buttonset>
+		<mainmenu>
+			<new_game>New Game</new_game>
+			<options>Options</options>
+			<rules>Rules</rules>
+			<credits>Credits</credits>
+		</mainmenu>
+		<back_set>
+			<back>Back</back>
+			<cancel>Cancel</cancel>
+			<main_menu>Main Menu</main_menu>
+			<quit>Quit</quit>
+		</back_set>
+		<game>
+			<random>Random</random>
+			<rematch>Rematch</rematch>
+			<start>Start</start>
+			<surrender>Surrender</surrender>
+		</game>
+		<player_number>
+			<one>1 Player</one>
+			<two>2 Players</two>
+		</player_number>
+	</buttonset>
+	<label>
+		<option_menu>
+			<language>Language</language>
+			<score_to_win>Score to win</score_to_win>
+			<rule>Rule</rule>
+			<save_button>Save</save_button>
+		</option_menu>
+		<enter_name>Enter Name</enter_name>
+		<move>Move</move>
+		<score>Score</score>
+		<boolean_answer>
+			<yes>Yes</yes>
+			<no>No</no>
+		</boolean_answer>
+	</label>
+	<message>
+		<outcome>
+			<win>wins over</win>
+			<loss>looses with</loss>
+			<tie>ties with</tie>
+		</outcome>
+		<creditsM>Designed and implemented by Nikiforos. Please send all comments, suggestions and feedbacks to</creditsM>
+		<end_gameM>wins!!!</end_gameM>
+		<forfeitM>wins because you surrendered..</forfeitM>
+		<tieM>every move ties with itself</tieM>
+		<exit_confirmationM>Do you really want to quit?</exit_confirmationM>
+	</message>
+</vocabulary>

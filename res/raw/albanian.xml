@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabulary code="sq" name="albanian">
+	<ruleset>
+		<classic>
+			<rock>Guri</rock>
+			<paper>Fleta</paper>
+			<scissors>Gersheta</scissors>
+		</classic>
+		<sheldon>
+			<rock>Guri</rock>
+			<paper>Fleta</paper>
+			<scissors>Gersheta</scissors>
+			<lizard>Zhapini</lizard>
+			<spock>Spock</spock>
+		</sheldon>
+	</ruleset>
+	<buttonset>
+		<mainmenu>
+			<new_game>Loja e re</new_game>
+			<options>Opsionet</options>
+			<rules>Rregullat</rules>
+			<credits>Credits</credits>
+		</mainmenu>
+		<back_set>
+			<back>Prapa</back>
+			<cancel>Shuaj</cancel>
+			<main_menu>Menyja kryesore</main_menu>
+			<quit>Mbyll</quit>
+		</back_set>
+		<game>
+			<random>Random</random>
+			<rematch>Rifillo</rematch>
+			<start>Start</start>
+			<surrender>Dorezim</surrender>
+		</game>
+		<player_number>
+			<one>Nje lojtare</one>
+			<two>Dy lojtare</two>
+		</player_number>
+	</buttonset>
+	<label>
+		<option_menu>
+			<language>Gjuha</language>
+			<score_to_win>Rezultati per te fituar</score_to_win>
+			<rule>Rregull</rule>
+			<save_button>Ruaj</save_button>
+		</option_menu>
+		<enter_name>Sheno emrin</enter_name>
+		<move>Leviz</move>
+		<score>Rezultati</score>
+		<boolean_answer>
+			<yes>Po</yes>
+			<no>Jo</no>
+		</boolean_answer>
+	</label>
+	<message>
+		<outcome>
+			<win>fiton ne krahasim me</win>
+			<loss>humb me</loss>
+			<tie></tie>
+		</outcome>
+		<creditsM>Dizajnuar dhe implementuar nga Nikiforos. Ju lutem dergoni te gjitha komentet, sygjerimet dhe levdatat ne</creditsM>
+		<end_gameM>fiton!!!</end_gameM>
+		<forfeitM>fiton nga shkaku se ti u dorezove..</forfeitM>
+		<tieM>cdo levizje lidhet me veten</tieM>
+		<exit_confirmationM>Do you really want to quit?</exit_confirmationM>
+	</message>
+</vocabulary>
